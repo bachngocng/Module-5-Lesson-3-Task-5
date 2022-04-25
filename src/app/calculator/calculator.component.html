@@ -1,0 +1,8 @@
+<h2>Calculator</h2>
+<input type="number" id="operandA" name="operandA" placeholder="Enter number a" [(ngModel)]="operandA" >
+<input type="number" id="operandB" placeholder="Enter number b" [(ngModel)]="operandB">
+<h5>{{result}}</h5>
+<button (click)="add()">+</button>
+<button (click)="sub()">-</button>
+<button (click)="multiple()">*</button>
+<button (click)="div()">/</button>
